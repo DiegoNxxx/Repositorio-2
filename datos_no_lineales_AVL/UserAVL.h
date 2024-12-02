@@ -1,10 +1,6 @@
-//
-// Created by David Sánchez on 15/10/24.
-//
 
 #ifndef USERAVL_H
 #define USERAVL_H
-#include <string>
 using namespace std;
 
 

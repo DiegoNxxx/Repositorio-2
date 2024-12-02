@@ -10,7 +10,7 @@ void Stack::push(int value) {
 }
 
 void Stack::pop() {
-    if(isEmpty()) {
+    if (isEmpty()) {
         cout << "El Stack está vacío." << endl;
         return;
     }
@@ -20,7 +20,7 @@ void Stack::pop() {
 }
 
 int Stack::top() {
-    if(isEmpty()) {
+    if (isEmpty()) {
         cout << "El Stack está vacío." << endl;
         return -1;
     }
