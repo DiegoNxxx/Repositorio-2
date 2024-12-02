@@ -44,3 +44,4 @@ public:
         return topNode == nullptr;
     }
 };
+#endif

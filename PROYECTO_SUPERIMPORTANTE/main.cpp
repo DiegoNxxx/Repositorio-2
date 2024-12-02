@@ -2,7 +2,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
-#include "Menu.h"
+#include "menu.h"
 #include "BinarySearch.h"
 #include "BinarySearchWindow.h"
 using namespace std;
