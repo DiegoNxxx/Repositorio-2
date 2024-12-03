@@ -294,12 +294,11 @@ int main() {
         cout << "10. AVL" << endl;
         cout << "11. Dijkstra" << endl;
         cout << "12. Matrices Adyac." << endl;
-        cout << "13. BFS" << endl;
-        cout << "14. DFS" << endl;
+        cout << "13. BFS y DFS" << endl;
 
-        cout << "15. Salir" << endl;
+        cout << "14. Salir" << endl;
         
-        cout << "\nSeleccione una opción: ";
+        cout << "\nSeleccione una opcion: ";
         cin >> opcion;
 
         // Ejecutar la opción seleccionada usando switch
@@ -308,21 +307,21 @@ int main() {
                 int target;
                 vector<int> data;
                 cout << "Seleccionaste la opción 1: BinarySearch\n";
-                cout << "¿Cuántos números quieres ingresar? ";
+                cout << "¿Cuantos numeros quieres ingresar? ";
                 cin >> N;
                 for (int i = 0; i < N; ++i) {
                     int num;
-                    cout << "Número " << i + 1 << ": ";
+                    cout << "Numero " << i + 1 << ": ";
                     cin >> num;
                     data.push_back(num);
                 }
-                cout << "Ingresa el número objetivo: ";
+                cout << "Ingresa el numero objetivo: ";
                 cin >> target;
                 
                 // Realizar la búsqueda
                 int result = binarySearch(data, target);
                 if (result != -1) {
-                    cout << "Elemento encontrado en el índice: " << result << endl;
+                    cout << "Elemento encontrado en el indice: " << result << endl;
                 } else {
                     cout << "Elemento no encontrado." << endl;
                 }
@@ -331,17 +330,17 @@ int main() {
             case 2: {  //BubbleSorte
                 vector<int> data;
                 data.clear();
-                cout << "Seleccionaste la opción 2: Bubble Sort\n";
+                cout << "Seleccionaste la opcion 2: Bubble Sort\n";
                 cout << "¿Cuántos números quieres ordenar? ";
                 cin >> N;
                 for (int i = 0; i < N; i++) {
                     int temp;
-                    cout << "Número " << i + 1 << ": ";
+                    cout << "Numero " << i + 1 << ": ";
                     cin >> temp;
                     data.push_back(temp);
                 }
                 bubbleSort(data);
-                cout << "Números ordenados: ";
+                cout << "Numeros ordenados: ";
                 for (int num : data) cout << num << " ";
                 cout << endl;
                 break;
@@ -349,8 +348,8 @@ int main() {
             }
             case 3:{ //Selection Sort
             vector<int> data;
-            cout << "Seleccionó Selection Sort";
-            cout << "Ingresa la cantidad de números a ordenar: ";
+            cout << "Selecciono Selection Sort";
+            cout << "Ingresa la cantidad de numeros a ordenar: ";
                 cin >> N;
                 for (int i = 0; i < N; i++) {
                     cout << "Ingresa un número (" << i + 1 << "/" << N << "): ";
@@ -648,7 +647,7 @@ int main() {
         cin >> option;
 
         switch (option) {
-            case 13: {
+            case 1: {
                 int numVertices, startVertex, subOption;
                 cout << "Seleccionaste la opción 13: BFS y DFS" << endl;
                 cout << "Selecciona el número de nodos en el grafo: ";
@@ -702,7 +701,7 @@ int main() {
                 break;
             }
 
-            case 0:
+            case 3:
                 cout << "Saliendo del programa...\n";
                 return 0;
 
@@ -712,7 +711,7 @@ int main() {
     }
             }
             
-            case 15:{ 
+            case 14:{ 
 
                 cout << "Saliendo...\n";
                 continuar = false;
