@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "tipo": "Perro",
+    "nombre": "Laika",
+    "edad": 5,
+    "uri": "https://pbs.twimg.com/profile_images/734853036384739328/dH9r20XX_400x400.jpg"
+  },
+  {
+    "id": 2,
+    "tipo": "Gato",
+    "nombre": "Boris",
+    "edad": 3
+  },
+  {
+    "id": 3,
+    "tipo": "Gato",
+    "nombre": "Polonia",
+    "edad": 2
+  }
+]
